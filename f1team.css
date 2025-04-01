@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    background-color: #3333;
+    width: 60px;
+    height: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    border-radius: 20px;
+    gap: 10%;
+
+    & nav {
+
+        & ul {
+            
+            & li {
+                margin-bottom: 15px;
+                
+                & button {
+                    width: 60px;
+                    background: none;
+                    border: none;
+                    border-radius: 50px;
+
+                    & a {
+
+                        & img {
+                            width: 40px;
+                        }
+                    }
+
+                    &:hover {
+                        border: 1px solid #fff;
+                    }
+                }
+            }
+
+            & .home {
+                background-color: orange;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+.logo {
+
+    & button {
+            position: fixed;
+            left: 50.4%;
+            transform: translateX(-50%);
+            margin-top: -12%;
+            border: none;
+            background: none;
+            border-radius: 0 0 30px 30px;
+            z-index: 2;
+            
+            & img {
+                width: 250px;
+                margin-top: 10%;
+                background-color: rgb(22, 22, 22);
+                border-radius: 0 0 30px 30px;
+            }
+    }
+}
+
+.drivers {
+
+    & h2 {
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 300%;
+        color: #fff;
+    }
+
+    & .lando {
+        position: absolute;
+        top: 30%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+
+    }
+
+    & .p1 {
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .Piastri {
+        position: absolute;
+        margin-left: 40%;
+        top: 30%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .p2 {
+        margin-left: 40%;
+        margin-top: -2%;
+        font-size: 200%;
+        color: #fff;
+    }
+}
+
+.liderança {
+
+    & h2 {
+        margin-top: 30%;
+        margin-left: 20%;
+        font-size: 300%;
+        color: #fff;
+    }
+
+    & .zak {
+        position: absolute;
+        top: 98%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .brown {
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .andrea {
+        position: absolute;
+        top: 98%;
+        margin-left: 40%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .stella {
+        margin-left: 40%;
+        margin-top: -2%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .laura {
+        position: absolute;
+        top: 98%;
+        margin-left: 60%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Bowden {
+        margin-left: 60%;
+        margin-top: -2%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .daniel {
+        position: absolute;
+        top: 155%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Gallo {
+        position: absolute;
+        top: 150%;
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .louise {
+        position: absolute;
+        top: 155%;
+        margin-left: 40%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .McEwen {
+        position: absolute;
+        top: 150%;
+        margin-left: 40%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .matt {
+        position: absolute;
+        top: 155%;
+        margin-left: 60%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Dennington {
+        position: absolute;
+        top: 150%;
+        margin-left: 60%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .nick {
+        position: absolute;
+        top: 212%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Martin {
+        position: absolute;
+        top: 207%;
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .chloe {
+        position: absolute;
+        top: 212%;
+        margin-left: 40%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Todd {
+        position: absolute;
+        top: 207%;
+        margin-left: 40%;
+        font-size: 200%;
+        color: #fff;
+    }
+}
+
+.gerenciamento {
+    & h2 {
+        margin-top: 88%;
+        margin-left: 20%;
+        font-size: 300%;
+        color: #fff;
+    }
+
+    & .Piers {
+        position: absolute;
+        top: 280%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Thynne {
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .Peter {
+        position: absolute;
+        top: 280%;
+        margin-left: 40%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Prodromou {
+        margin-left: 40%;
+        margin-top: -2%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .Rob {
+        position: absolute;
+        top: 280%;
+        margin-left: 60%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Marshall {
+        margin-left: 60%;
+        margin-top: -2%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .Neil {
+        position: absolute;
+        top: 337%;
+        margin-left: 20%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Houldey {
+        position: absolute;
+        top: 332%;
+        margin-left: 20%;
+        font-size: 200%;
+        color: #fff;
+    }
+
+    & .Mark {
+        position: absolute;
+        top: 337%;
+        margin-left: 40%;
+        width: 330px;
+        height: 450px;
+    }
+
+    & .Temple {
+        position: absolute;
+        top: 332%;
+        margin-left: 40%;
+        font-size: 200%;
+        color: #fff;
+    }
+}
+
+.spacer {
+    height: 100px;
+    margin-top: 42%;
+}
