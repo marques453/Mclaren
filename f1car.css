@@ -268,3 +268,68 @@ section{
         }
     }
 }
+
+media screen and (max-width: 1366px) {
+
+    header{
+        top: 50%;
+        height: 45%;
+    }
+
+    & .logo{
+
+        & button{
+            left: 47%;
+            margin-top: -2%;
+
+            & img{
+                width: 200px
+            }
+        }
+    }
+
+    section{
+
+        & .lista{
+
+            & .itens{
+
+                & .imagemcarro{
+                    width: 40%;
+                    left: 1%;
+                }
+
+                & .modelo1{
+                    right: 20px;
+
+                    & .descricao{
+                        height: 50%;
+                        font-size: 11px;
+                    }
+
+                    & h2{
+                        font-size: 3em;
+                    }
+                }
+            }
+
+            &::before{
+                top: 30%;
+                width: 31.5%;
+                height: 310px;
+            }
+        }
+
+        & .arrows{
+            width: 80%;
+
+            & button:nth-child(2){
+                opacity: 0;
+            }
+        }
+
+        & .indicators{
+            top: 50%;
+        }
+    }
+}
