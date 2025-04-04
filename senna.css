@@ -143,3 +143,28 @@ section {
         }
     }
 }
+
+@media screen and (max-width: 1366px){
+
+    header{
+        height: 46%;
+        top: 50%;
+    }
+
+    .logo{
+
+        & button{
+            left: 47%;
+
+            & img{
+                width: 200px;
+            }
+        }
+    }
+
+    section{
+        width: 90%;
+        height: 130%;
+        left: 75px;
+    }
+}
