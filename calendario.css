@@ -272,3 +272,57 @@ section{
         }
     }
 }
+
+@media screen and (max-width: 1366px) {
+
+    header{
+        top: 50%;
+        height: 46%;
+    }
+
+    .logo{
+        
+        & button{
+            left: 47%;
+            margin-top: -2%;
+
+            & img{
+                width: 200px
+            }
+        }
+    }
+
+    section{
+
+        & .lista{
+
+            & .itens{
+
+                & .imagemcarro{
+                    top: 29%;
+                }
+
+                & .modelo1{
+                    right: 31%;
+                }
+            }
+
+            &::before{
+                top: 28.3%;
+                height: 258px;
+            }
+        }
+
+        & .arrows{
+            width: 40%;
+
+            & button:nth-child(2) {
+                opacity: 0;
+            }
+        }
+    }
+
+    & .indicators{
+        margin-top: -5%;
+    }
+}
